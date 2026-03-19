@@ -41,8 +41,9 @@ export default function CXVaultComingSoonPage() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
-              CXVault is a secure platform designed to index and search customer interaction metadata,
-              enabling fast discovery, controlled access, and a clear path to enterprise scale.
+              CXVault is built on AWS with a security-first architecture. Customer data remains in
+              customer-controlled storage environments while CXVault operates as a secure indexing and
+              governed access layer.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -63,16 +64,16 @@ export default function CXVaultComingSoonPage() {
             <div className="mt-12 grid gap-4 sm:grid-cols-3">
               {[
                 {
-                  title: 'Secure by design',
-                  text: 'Built around controlled access, customer owned storage boundaries, and enterprise trust requirements.',
+                  title: 'Data stays in your account',
+                  text: 'Customer data never leaves customer-controlled environments, and CXVault does not store customer media.',
                 },
                 {
-                  title: 'Natural language search',
-                  text: 'Find interactions faster using intuitive search experiences built for real business users.',
+                  title: 'Customer-managed encryption',
+                  text: 'Encryption in transit uses TLS, and encryption at rest is protected through customer-controlled AWS KMS keys.',
                 },
                 {
-                  title: 'Enterprise ready roadmap',
-                  text: 'Designed to grow into investigation, compliance, transcription, and advanced security workflows.',
+                  title: 'Short-lived, least-privilege access',
+                  text: 'Scoped IAM roles and short-lived credentials minimize exposure and enforce strict access boundaries.',
                 },
               ].map((item) => (
                 <div
@@ -83,6 +84,27 @@ export default function CXVaultComingSoonPage() {
                   <p className="mt-2 text-sm leading-6 text-slate-400">{item.text}</p>
                 </div>
               ))}
+            </div>
+
+            <div className="mt-8 rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
+              <div className="text-sm uppercase tracking-[0.22em] text-slate-400">Trust and compliance</div>
+              <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-300">
+                CXVault is designed to support enterprise compliance frameworks including SOC 2,
+                ISO 27001, and FedRAMP, with formal certification pathways planned. The platform is
+                built to provide a clear audit path with event logging and reporting expansion on the roadmap.
+              </p>
+              <div className="mt-5 flex flex-wrap gap-3">
+                {['AWS', 'SOC 2 (Designed to support)', 'ISO 27001 (Designed to support)', 'FedRAMP (Planned pathway)'].map(
+                  (badge) => (
+                    <span
+                      key={badge}
+                      className="rounded-full border border-white/15 bg-slate-900/70 px-3 py-1.5 text-xs text-slate-200"
+                    >
+                      {badge}
+                    </span>
+                  ),
+                )}
+              </div>
             </div>
           </div>
 
@@ -104,7 +126,7 @@ export default function CXVaultComingSoonPage() {
                   ['Core search and indexing', 'Active'],
                   ['Natural language discovery', 'Active'],
                   ['Enterprise security baseline', 'Active'],
-                  ['Investigation and compliance roadmap', 'Planned'],
+                  ['Audit trail and reporting expansion', 'Planned'],
                 ].map(([label, status]) => (
                   <div key={label} className="flex items-center justify-between rounded-2xl border border-white/8 bg-white/5 px-4 py-4">
                     <span className="text-sm text-slate-200">{label}</span>
