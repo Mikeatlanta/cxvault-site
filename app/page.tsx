@@ -1,238 +1,153 @@
-Documentation
-  WFM Request Anything Admin
-    Getting started with Request Anything for administrators
-    Request Anything overview for administrators
-    Managing rules
-      Create a rule
-        General rule parameters
-        Roles and actions parameters
-        Validations
-        Filing rules
-        Auto Processing
-        Notifications
-      View a rule
-        Rule column descriptions
-        Activate a rule
-        Inactivate a rule
-        Edit a rule
-        Delete a rule
-  WFM Request Anything Manager
-    Getting started with Request Anything for managers
-    Request Anything overview for managers
-    Managing employee event requests
-      View employee requests
-        Event request columns
-        View employee request details
-        View validation details
-        Approve a request
-        Deny a request
-  WFM Strategic Planner
-    Strategic Planner overview
-      Welcome to Strategic Planner
-      Introducing Scenarios
-      Scenarios
-      Creating Scenarios
-        Monthly Scenarios
-        Weekly Scenarios
-      Scenario Panes
-        The Work Queues Pane
-        The Staffing Profiles Pane
-        The Totals Pane
-        Summary Columns
-        Running Simulations
-        Optimizing
-        Using Views
-      Comparing Scenarios and Data
-        Comparing Scenarios
-        Comparing Individual Data
-      Exporting to an Excel Report
-        What the Excel Report Contains
-          Title Worksheet
-          Summary Worksheets
-          Work Queue Worksheets
-          Staffing Profile Worksheets
-      Working with Work Queues
-        Editing Work Queues
-        Entering Data Manually in Work Queues
-        Running the Simulator for Work Queues
-        Importing Volume and AHT Information
-          Importing From Forecasting and Scheduling
-          Importing from a File
-            Format of the Import File
-            Importing from All Work Queues
-            Creating a New Work Queue
-            Adding Employees to a Work Queue
-      Working with Staffing Profiles
-        The General Tab
-        The Hire or Transfer Tab
-        The Holidays Tab
-        The Shrinkage Tab
-        Entering Data Manually in Staffing Profiles
-        Modeling Attrition
-        Creating Additional Staffing Profiles
-        Setting Up Transfers for Optimization
-      Exporting and Importing Vacation Hours to Support Vacation Time Optimization
-        Exporting Vacation Hours
-        Importing Vacation Hours
-      Advanced Work with Scenarios
-        Optimizing Staffing Plans
-          Staffing Preferences
-        Advanced Options for Hiring, Transfers, and Overtime
-          Setting Limits on Hiring and Planned Reductions
-          Setting Limits on Transfers
-          Setting Limits on Overtime Hours
-          Performing the Optimization
-          Cost Calculation
-        Import Data
-          Importing Data
-          Importing Data from All Queues
-          Export to Excel
-        Comparison Graph
-          Graphing Data
-          Printing Graphs
-        Running the Simulator
-        Configuring Cost Estimates
-      Time Banking
-        Time Banking in Strategic Planner
-        General Work Flow for Time Banking Plans
-      Strategic Forecasting
-        Strategic Forecasting overview
-        Importing Strategic Forecasting Data
-        Marking Days in Strategic Forecasting
-          Specifying Outliers
-          Specifying Special Events
-          Specifying Reconfiguration Days
-          Additional Controls
-        Viewing the Strategic Forecasting Main Window
-          V and AHT Graphs
-          Date Range
-          Strategic Forecasting additional controls
-          Viewing Week Details
-        Exporting Strategic Forecast Data
-          Exporting Single or Multiple Work Queues to the Database
-          Exporting to a File
-          Setting Up the Strategic Forecast
-  WFM TimeFlex Admin Guide
-    Introduction to TimeFlex
-      TimeFlex overview
-      TimeFlex workspace
-      TimeFlex rules and limitations
-    System settings
-      Define lockout periods
-      Search for and manage users
-      Shut down TimeFlex for all users
-    Set global settings
-      Global configuration settings
-    Campaign settings
-      Define general campaign settings
-    Understanding the TimeFlex pricing model
-      Define the pricing model
-      Automate the pricing model
-      Define a blackout period
-      Define effective scheduling periods
-    Set campaign settings
-      Handling secondary activities
-      Campaign configuration settings
-  WFM TimeFlex Employee Guide
-    Introduction to TimeFlex
-      TimeFlex overview
-      TimeFlex workspace
-      TimeFlex rules and limitations
-    Changing shifts on your schedule
-      Change the shift start and end time
-      Change the shift length
-      Create a shift
-      Split a shift
-      Delete a shift
-    Understanding My Wallet
-      View your coin expirations
-      View your coin balance history
-  WFM TimeFlex Reports Guide
-    TimeFlex campaign reports
-      View campaign reports
-      Campaign Requests Report
-      Campaign Requests Detailed Report
-      Users Coins Report
-      Days Notice Given Report for campaigns
-      Helpful or Unhelpful Requests Report for campaigns
-      Days Notice Before Shift Change Report
-      Unique Requests Per Day Report
-      Requests Report
-  Workforce Management
-    WFM Essentials
-      Work Administration feature availability
-        Work Administration in WFM Essentials
-      My Home feature availability
-        My Home in WFM Essentials
-      Request Management feature availability
-        Request Management in WFM Essentials
-      Forecasting and Scheduling feature availability
-        Forecasting and Scheduling in WFM Essentials
-    WFM Administration
-      Getting started with WFM
-        Introduction to Workforce Management WFM
-        Generating schedules in WFM
-        Setting up scheduling components
-        Work Administration feature availability for WFM Essentials and Enterprise
-      Work queues
-        Work queues overview
-        Workflow Set up normal work queues
-          Create a normal work queue
-            Work queue settings
-            Edit work queue to map data source groups to normal queues
-            Map data source groups to queues
-            Create a process work queue
-        Workflow Set up work queues for multi site operations
-          Create a distributed or virtual work queue
-          Edit work queue to map child queues to parent queues
-          Map child queues to parent queues
-          Edit a work queue
-          Copy a work queue
-        Workflow Create work queue filters
-          Create work queue attributes
-            Work queue attribute definition fields
-            Edit work queue attributes
-            Delete work queue attributes
-          Select work queue to set attributes
-          Set attribute values for a work queue
-      VCT work queues
-        Define a VCT work queue
-          VCT work queue configuration
-          VCT AHT history and current settings
-          Delete VCT work queue
-      VCT arrival patterns
-        Import a VCT arrival pattern
-        Create a VCT arrival pattern
-          VCT arrival patterns settings
-          Edit a VCT arrival pattern
-          Delete a VCT arrival pattern
-      Activities
-        Workflow Set up activities
-          Create an activity type
-            Predefined activity types
-            Activity type details
-            Example Accrual policy for an employee
-            Edit an activity type
-            Delete an activity type
-          Create an activity
-            Predefined activities
-            Activity details
-            Edit an activity
-            Copy an activity
-            Delete an activity
-        Customize a special activity for an organization
-          Special activity override details
-          Example Override attributes for special activities
-        Workflow Map activities for adherence
-          Select to map activities to alternate activities
-          Map alternate activities for adherence
-        Mapping of activities to reason codes and data sources
-        Workflow Upload Time Collector Mappings
-          Create text file of Time Collector Mappings
-          Upload Time Collector Mappings
-          Time Collector Mappings fields
-          View Time Collector Mappings
-        Edit the mapping of a reason code to an activity
-          Time Collector Mapping Details screen
-          Remove the mapping of a reason code to an activity
-        Monitoring adherence from data sources
+export default function CXVaultComingSoonPage() {
+  return (
+    <div className="min-h-screen bg-slate-950 text-white overflow-hidden">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(37,99,235,0.22),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(14,165,233,0.18),transparent_28%)]" />
+      <div className="absolute inset-0 opacity-20 [background-image:linear-gradient(rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.06)_1px,transparent_1px)] [background-size:36px_36px]" />
+
+      <main className="relative mx-auto flex min-h-screen max-w-7xl flex-col px-6 py-8 sm:px-10 lg:px-12">
+        <header className="flex items-center justify-between">
+          <div className="flex items-center gap-4">
+            <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-blue-400/30 bg-slate-900/80 shadow-[0_0_40px_rgba(37,99,235,0.18)]">
+              <div className="relative h-7 w-7">
+                <div className="absolute inset-0 rounded-full border-2 border-white/90" />
+                <div className="absolute bottom-0 left-1/2 h-4 w-5 -translate-x-1/2 rounded-b-full border-x-2 border-b-2 border-white/90" />
+                <div className="absolute left-1/2 top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-[2px] rounded-full bg-blue-500" />
+              </div>
+            </div>
+            <div>
+              <div className="text-2xl font-semibold tracking-tight">
+                <span className="text-blue-500">CX</span>Vault
+              </div>
+              <div className="text-xs uppercase tracking-[0.24em] text-slate-400">Secure interaction intelligence</div>
+            </div>
+          </div>
+
+          <a
+            href="mailto:inquiry@cxvault.ai"
+            className="hidden rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-slate-200 transition hover:border-blue-400/40 hover:bg-blue-500/10 sm:inline-flex"
+          >
+            inquiry@cxvault.ai
+          </a>
+        </header>
+
+        <section className="grid flex-1 items-center gap-14 py-16 lg:grid-cols-[1.2fr_0.8fr] lg:py-24">
+          <div>
+            <div className="mb-6 inline-flex rounded-full border border-blue-400/25 bg-blue-500/10 px-4 py-2 text-sm text-blue-200">
+              Coming soon
+            </div>
+
+            <h1 className="max-w-4xl text-5xl font-semibold leading-tight tracking-tight text-white sm:text-6xl lg:text-7xl">
+              Search customer interaction data with speed, security, and control.
+            </h1>
+
+            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
+              CXVault is a secure platform designed to index and search customer interaction metadata,
+              enabling fast discovery, controlled access, and a clear path to enterprise scale.
+            </p>
+
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+              <a
+                href="mailto:inquiry@cxvault.ai?subject=CXVault%20Inquiry"
+                className="inline-flex items-center justify-center rounded-2xl bg-blue-600 px-6 py-4 text-base font-medium text-white shadow-[0_10px_40px_rgba(37,99,235,0.35)] transition hover:bg-blue-500"
+              >
+                Request early access
+              </a>
+              <a
+                href="mailto:inquiry@cxvault.ai?subject=CXVault%20Demo%20Request"
+                className="inline-flex items-center justify-center rounded-2xl border border-white/15 bg-white/5 px-6 py-4 text-base font-medium text-slate-200 transition hover:border-blue-400/40 hover:bg-white/10"
+              >
+                Talk to the team
+              </a>
+            </div>
+
+            <div className="mt-12 grid gap-4 sm:grid-cols-3">
+              {[
+                {
+                  title: 'Secure by design',
+                  text: 'Built around controlled access, customer owned storage boundaries, and enterprise trust requirements.',
+                },
+                {
+                  title: 'Natural language search',
+                  text: 'Find interactions faster using intuitive search experiences built for real business users.',
+                },
+                {
+                  title: 'Enterprise ready roadmap',
+                  text: 'Designed to grow into investigation, compliance, transcription, and advanced security workflows.',
+                },
+              ].map((item) => (
+                <div
+                  key={item.title}
+                  className="rounded-3xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm"
+                >
+                  <div className="text-sm font-medium text-white">{item.title}</div>
+                  <p className="mt-2 text-sm leading-6 text-slate-400">{item.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="relative">
+            <div className="absolute -inset-6 rounded-[2rem] bg-blue-500/10 blur-3xl" />
+            <div className="relative rounded-[2rem] border border-white/10 bg-slate-900/70 p-6 shadow-2xl backdrop-blur-xl">
+              <div className="mb-6 flex items-center justify-between">
+                <div>
+                  <div className="text-sm uppercase tracking-[0.22em] text-slate-400">Launch status</div>
+                  <div className="mt-2 text-2xl font-semibold text-white">Building the foundation</div>
+                </div>
+                <div className="rounded-full border border-emerald-400/25 bg-emerald-500/10 px-3 py-1 text-sm text-emerald-300">
+                  In progress
+                </div>
+              </div>
+
+              <div className="space-y-4">
+                {[
+                  ['Core search and indexing', 'Active'],
+                  ['Natural language discovery', 'Active'],
+                  ['Enterprise security baseline', 'Active'],
+                  ['Investigation and compliance roadmap', 'Planned'],
+                ].map(([label, status]) => (
+                  <div key={label} className="flex items-center justify-between rounded-2xl border border-white/8 bg-white/5 px-4 py-4">
+                    <span className="text-sm text-slate-200">{label}</span>
+                    <span
+                      className={`rounded-full px-3 py-1 text-xs font-medium ${
+                        status === 'Active'
+                          ? 'bg-blue-500/15 text-blue-200 border border-blue-400/20'
+                          : 'bg-slate-700/60 text-slate-300 border border-white/10'
+                      }`}
+                    >
+                      {status}
+                    </span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-6 rounded-2xl border border-white/8 bg-gradient-to-br from-blue-500/10 to-slate-800 p-5">
+                <div className="text-sm uppercase tracking-[0.22em] text-slate-400">Contact</div>
+                <a
+                  href="mailto:inquiry@cxvault.ai"
+                  className="mt-3 block text-xl font-medium text-white transition hover:text-blue-300"
+                >
+                  inquiry@cxvault.ai
+                </a>
+                <p className="mt-3 text-sm leading-6 text-slate-400">
+                  Reach out for partnership conversations, early access interest, or product inquiries.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer className="relative flex flex-col gap-3 border-t border-white/10 py-6 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between">
+          <div>© 2026 CXVault. All rights reserved.</div>
+          <div className="flex items-center gap-4">
+            <span>Enterprise search</span>
+            <span className="text-slate-600">•</span>
+            <span>Secure access</span>
+            <span className="text-slate-600">•</span>
+            <span>Coming soon</span>
+          </div>
+        </footer>
+      </main>
+    </div>
+  );
+}
